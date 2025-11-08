@@ -37,3 +37,16 @@
 | TransactionType	          | Типы операций                                |
 
 ---
+
+## Импорт/Экспорт CSV
+
+Формат данных для трансакций представлен ниже:
+
+ datetime;type;category;amount;description
+
+* datetime : "yyyy-MM-dd HH:mm:ss"
+* type :  INCOME, EXPENSE
+* category : String
+* amount : Double
+* description: String
+
